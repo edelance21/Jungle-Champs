@@ -191,6 +191,7 @@ aside {
     list-style: none;
     padding: 0;
     margin: 0.4rem;
+    width: 100%;
 }
 
 .espacio {
@@ -199,4 +200,27 @@ aside {
 
 a {
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imagen,
+  .cards p,
+  .smallp {
+    width: 90%;
+  }
+
+  #titulo {
+    font-size: 2rem;
+  }
+
+  footer {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem 0;
+  }
 }
