@@ -10,7 +10,6 @@ html {
   font-style: normal;
 }
 
-
 .imagen {
     width: 28rem;
     height: auto;
@@ -20,7 +19,7 @@ html {
 }
 
 body {
-    background-color: rgb(179, 179, 179);
+    background-color: rgb(204, 195, 195);
 }
 
 #titulo {
@@ -31,7 +30,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 9rem;
-    color: rgb(255, 255, 255);
+    color: wheat;
     margin-bottom: 0.2rem;
     font-size: 3rem;
 }
@@ -41,7 +40,7 @@ body {
 }
 
 .card1{
-    background-color: rgba(0, 0, 0, 0.473);
+    background-color: wheat;
     width: min-content;
     display: flex;
     flex-direction: column;
@@ -51,11 +50,11 @@ body {
     height: min-content;
     box-shadow: 5px 10px 8px 10px #888888;
     cursor: pointer;
-    color: rgb(0, 0, 0);
+    color: black;
 }
 
 .card2 {
-    background-color: rgba(0, 0, 0, 0.473);
+    background-color: wheat;
     width: min-content;
     display: flex;
     flex-direction: column;
@@ -65,11 +64,11 @@ body {
     box-shadow: 5px 10px 8px 10px #888888;
     border-radius: 0.8rem;
     cursor: pointer;
-    color: rgb(0, 0, 0);
+    color: black;
 }
 
-.card3{
-    background-color: rgba(0, 0, 0, 0.473);
+.card3 {
+    background-color: wheat;
     width: min-content;
     display: flex;
     flex-direction: column;
@@ -78,11 +77,11 @@ body {
     box-shadow: 5px 10px 8px 10px #888888;
     border-radius: 0.8rem;
     cursor: pointer;
-    color: rgb(0, 0, 0);
+    color: black;
 }
 
 .card4{
-    background-color: rgba(0, 0, 0, 0.473);
+    background-color: wheat;
     width: min-content;
     display: flex;
     flex-direction: column;
@@ -92,11 +91,11 @@ body {
     border-radius: 0.8rem;
     cursor: pointer;
     margin-bottom: 1rem;
-    color: rgb(0, 0, 0);
+    color: black;
 }
 
-.card5{
-    background-color: rgba(0, 0, 0, 0.473);
+.card5 {
+    background-color: wheat;
     width: min-content;
     display: flex;
     flex-direction: column;
@@ -122,15 +121,15 @@ h3 {
     justify-content: center;
     font-size: 1.7rem;
     margin-bottom: 0.6rem;
-    color: white;
+    color: black;
 }
 
 .card1:hover {
-    box-shadow: 0 1rem 0.4rem rgba(112, 34, 177, 0.3);
+    box-shadow: 0 1rem 0.4rem rgba(0, 0, 0, 0.3);
 }
 
 .card2:hover {
-    box-shadow: 0 1rem 0.4rem rgba(112, 34, 177, 0.3);
+    box-shadow: 0 1rem 0.4rem rgba(0, 0, 0, 0.3);
 }
 
 .card3:hover {
@@ -138,11 +137,11 @@ h3 {
 }
 
 .card4:hover {
-    box-shadow: 0 1rem 0.4rem rgba(112, 34, 177, 0.3);
+    box-shadow: 0 1rem 0.4rem rgba(0, 0, 0, 0.3);
 }
 
 .card5:hover {
-    box-shadow: 0 1rem 0.4rem rgba(112, 34, 177, 0.3);
+    box-shadow: 0 1rem 0.4rem rgba(0, 0, 0, 0.3);
 }
 
 footer {
@@ -165,7 +164,7 @@ aside {
 }
 
 .subtitulo {
-    color: indigo;
+    color: black;
     font-size: 2rem;
 }
 
@@ -176,7 +175,7 @@ aside {
 }
 
 .menu {
-    background-color: beige;
+    background-color: wheat;
     border: 2px solid black;
     width: 100%;
     margin-bottom: 0.8rem;
