@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 html {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header {
@@ -116,4 +116,25 @@ footer p {
 
 li:hover {
     background-color: #023e8a;
+}
+
+@media screen and (max-width:450px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cartas {
+        width: 80%;
+    }
+
+    #titulo {
+        text-align: center;
+    }
+
+    .subtitulo-aside {
+        font-size: 1.40rem;
+    }
+
 }
