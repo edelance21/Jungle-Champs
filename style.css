@@ -118,6 +118,18 @@ li:hover {
     background-color: #023e8a;
 }
 
+.cartas .imagen {
+    transition: width 2s, height 2s, transform 3s;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.cartas .imagen:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
+}
+
 @media screen and (max-width:450px) {
     .cards {
         display: flex;
